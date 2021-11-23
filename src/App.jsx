@@ -1,5 +1,6 @@
 // Components
 import Navbar from "./components/Navbar";
+// Pages
 import Home from "./pages/Home";
 //Styles
 import "./App.css";
