@@ -2,6 +2,8 @@ body {
   margin: 0;
 }
 
+/* Navbar */
+
 .navbar {
   display: flex;
   align-items: center;
@@ -12,7 +14,7 @@ body {
 }
 
 .logo {
-  font-size:25px;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -33,4 +35,30 @@ body {
   height: 38px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+/* Card */
+
+.home {
+  display: flex;
+  padding: 50px 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  padding: 10px;
+}
+
+.card-title {
+}
+
+.card-img {
+  width: 100%;
+}
+.card-desc {
+}
+
+.card-button {
 }
