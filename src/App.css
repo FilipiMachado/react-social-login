@@ -7,8 +7,13 @@ body {
   align-items: center;
   justify-content: space-around;
   height: 50px;
-  background-color: purple;
+  background-color: rgb(0, 128, 75);
   color: #fff;
+}
+
+.logo {
+  font-size:25px;
+  font-weight: bold;
 }
 
 .list {
@@ -24,7 +29,8 @@ body {
 }
 
 .avatar {
-  width: 32px;
-  height: 32px;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
+  object-fit: cover;
 }
