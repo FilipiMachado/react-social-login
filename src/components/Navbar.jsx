@@ -9,7 +9,7 @@ const Navbar = () => {
           <img className="avatar" src="" alt="" />
         </li>
         <li className="list-item">Fil Machado</li>
-        <li className="li list-item">Logout</li>
+        <li className="list-item">Logout</li>
       </ul>
     </div>
   );

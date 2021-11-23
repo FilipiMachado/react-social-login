@@ -5,7 +5,20 @@ body {
 .navbar {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   height: 50px;
   background-color: purple;
   color: #fff;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.list-item {
+  margin-right: 20px;
+  font-weight: 500;
+  cursor: pointer;
 }
