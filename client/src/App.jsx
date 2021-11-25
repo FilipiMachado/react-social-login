@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
 
 function App() {
-  const user = false;
+  const user = true;
 
   return (
     <BrowserRouter>

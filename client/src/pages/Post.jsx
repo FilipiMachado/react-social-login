@@ -1,9 +1,17 @@
 import React from "react";
+import { useLocation } from "react-router";
 // Data
 import { posts } from "../data";
 
 const Post = () => {
-  const post = posts[2];
+  const location = useLocation();
+  const path = location.pathname.split("/")[2];
+
+  const post = posts.find((p) => p.id.toString() === path);
+
+  console.log(post)
+  console.log(path);
+  console.log(location);
   return (
     <div className="post">
       <img className="post-img" src={post.img} alt="images" />
