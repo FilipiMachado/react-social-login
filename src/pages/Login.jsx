@@ -7,7 +7,7 @@ import Google from "../img/google.png";
 const Login = () => {
   return (
     <div className="login">
-      <h1 className="login-title">Choose a Login Method</h1>
+      {/* <h1 className="login-title">Choose a Login Method</h1> */}
       <div className="wrapper">
         <div className="left">
           <div className="login-button facebook">
