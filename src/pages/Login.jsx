@@ -23,6 +23,10 @@ const Login = () => {
             Google
           </div>
         </div>
+        <div className="center">
+          <div className="line" />
+          <div className="or">OR</div>
+        </div>
         <div className="right">
           <input type="text" placeholder="Username" />
           <input type="password" placeholder="Password" />
