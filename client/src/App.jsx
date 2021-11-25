@@ -14,7 +14,13 @@ function App() {
     <BrowserRouter>
       <>
         <Navbar />
-        <Login />
+        <Routes>
+          <Route>
+            <Home />
+            <Post />
+            <Login />
+          </Route>
+        </Routes>
       </>
     </BrowserRouter>
   );
