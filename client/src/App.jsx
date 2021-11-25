@@ -2,8 +2,8 @@
 import Navbar from "./components/Navbar";
 // Pages
 import Home from "./pages/Home";
-import Post from "./pages/Post";
 import Login from "./pages/Login";
+import Post from "./pages/Post";
 // React Router
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 //Styles
@@ -15,11 +15,9 @@ function App() {
       <>
         <Navbar />
         <Routes>
-          <Route>
-            <Home />
-            <Post />
-            <Login />
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/post/:id" element={<Post />} />
         </Routes>
       </>
     </BrowserRouter>
