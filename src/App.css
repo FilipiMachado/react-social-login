@@ -9,7 +9,7 @@ body {
   align-items: center;
   justify-content: space-around;
   height: 50px;
-  background-color: rgb(0, 128, 75);
+  background-color: lightseagreen;
   color: #fff;
 }
 
@@ -69,7 +69,7 @@ body {
 .card-button {
   border: none;
   border-radius: 10px;
-  background-color: rgba(0, 88, 51, 0.918);
+  background-color: rgba(1, 119, 70, 0.918);
   padding: 10px;
   color: #fff;
   font-weight: 500;
@@ -153,12 +153,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .or {
-  border: 2px solid lightgray;
+  border: 2px solid lightseagreen;
   border-radius: 50%;
   padding: 10px;
+  color: rgb(104, 104, 104);
+  background-color: #fff;
+  font-weight: 500;
+}
+
+.line {
+  width: 0.5px;
+  height: 75%;
+  background-color: lightgrey;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
 }
 
 /* Right Login Page */
