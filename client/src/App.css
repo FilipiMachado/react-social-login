@@ -37,6 +37,11 @@ body {
   object-fit: cover;
 }
 
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* Card Component*/
 
 .home {
