@@ -10,7 +10,7 @@ const Login = () => {
       <h1 className="login-title">Choose a Login Method</h1>
       <div className="wrapper">
         <div className="left">
-          <div className="login-button google">
+          <div className="login-button facebook">
             <img className="icon" src={Facebook} alt="facebook icon" />
             Facebook
           </div>
