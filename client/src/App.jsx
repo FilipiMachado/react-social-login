@@ -4,15 +4,19 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Post from "./pages/Post";
 import Login from "./pages/Login";
+// React Router
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 //Styles
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Login />
-    </>
+    <BrowserRouter>
+      <>
+        <Navbar />
+        <Login />
+      </>
+    </BrowserRouter>
   );
 }
 
