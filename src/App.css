@@ -116,6 +116,9 @@ body {
 }
 
 .login-title {
+  position: absolute;
+  top: 150px;
+  color: rgb(185, 185, 185);
 }
 
 .wrapper {
@@ -160,6 +163,12 @@ body {
   background-color: #df4930;
 }
 
+.icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
 /* Center Login Page */
 
 .center {
@@ -193,3 +202,20 @@ body {
 }
 
 /* Right Login Page */
+
+input {
+  width: 200px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.submit {
+  width: 200px;
+  background-color: lightseagreen;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
