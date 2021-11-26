@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 // Components
 import Navbar from "./components/Navbar";
 // Pages
@@ -12,10 +13,14 @@ import "./App.css";
 function App() {
   const user = false;
 
+  useEffect(() => {
+    
+  }, []);
+
   return (
     <BrowserRouter>
       <>
-        <Navbar user={user}/>
+        <Navbar user={user} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
