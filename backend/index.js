@@ -2,8 +2,9 @@
 const express = require("express");
 const app = express();
 // Passport
-const passport = require("passport");
 const passportSetup = require("./passport");
+const passport = require("passport");
+const authRoute = require("./routes/auth");
 // Cors
 const cors = require("cors");
 // Cookie Session
@@ -28,6 +29,9 @@ app.use(
   })
 );
 
+app.use("/auth", authRoute);
+
 app.listen("5000", () => {
   console.log("Server is running!!!");
 });
+

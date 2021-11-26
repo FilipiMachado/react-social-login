@@ -5,6 +5,11 @@ import Github from "../img/github.png";
 import Google from "../img/google.png";
 
 const Login = () => {
+
+  const google = ()=> {
+    window.open("http://localhost:5000/auth/google", "_self")
+  }
+
   return (
     <div className="login">
       <h1 className="login-title">Escolha um Método de Login</h1>
@@ -18,7 +23,7 @@ const Login = () => {
             <img className="icon" src={Github} alt="github icon" />
             Github
           </div>
-          <div className="login-button google">
+          <div className="login-button google" onClick={google}>
             <img className="icon" src={Google} alt="google icon" />
             Google
           </div>
