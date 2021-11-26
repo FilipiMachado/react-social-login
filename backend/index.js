@@ -1,6 +1,10 @@
 // Express
 const express = require("express");
 const app = express();
+// Passport
+const passport = require("passport");
+// Cors
+const cors = require("cors");
 // Cookie Session
 const cookieSession = require("cookie-session");
 
@@ -18,6 +22,8 @@ app.use(passport.session());
 app.use(
   cors({
     origin: "http://localhost:3000",
+    methods: "GET,POST,PUT,DELETE",
+    credentials: true,
   })
 );
 
