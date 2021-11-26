@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 // Passport
 const passport = require("passport");
+const passportSetup = require("./passport");
 // Cors
 const cors = require("cors");
 // Cookie Session
