@@ -3,6 +3,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = ({ user }) => {
+
+  const logout = () => {
+    window.open("http://localhost:5000/auth/logout", "_self")
+  }
+
   return (
     <div className="navbar">
       <span className="logo">
@@ -20,7 +25,7 @@ const Navbar = ({ user }) => {
             />
           </li>
           <li className="list-item">Fil Machado</li>
-          <li className="list-item">Logout</li>
+          <li className="list-item" onClick={logout}>Logout</li>
         </ul>
       ) : (
         <Link className="link" to="/login">

@@ -158,14 +158,17 @@ body {
 
 .facebook {
   background-color: #4867aa;
+  cursor: pointer;
 }
 
 .github {
   background-color: black;
+  cursor: pointer;
 }
 
 .google {
   background-color: #df4930;
+  cursor: pointer;
 }
 
 .icon {
